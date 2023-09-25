@@ -1,0 +1,23 @@
+.filter-bar
+{
+    display: flex;
+    align-items: center;
+}
+
+.filter-button-container::-webkit-scrollbar
+{
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.filter-button-container
+{
+    scrollbar-width: none;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.filter-button-container::-webkit-scrollbar-track
+{
+    background: transparent;
+}
