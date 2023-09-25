@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { Fragment } from "react";
 import Head from "next/head";
 import Header from "@/components/NavBar/Header";
 import Banner from "@/components/Banner";

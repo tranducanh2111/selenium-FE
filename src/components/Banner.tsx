@@ -1,6 +1,7 @@
 import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from "next/image";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -8,7 +9,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 // import required modules
-import {Pagination, Autoplay, EffectCreative, EffectCoverflow } from 'swiper/modules';
+import {Pagination, Autoplay, EffectCoverflow } from 'swiper/modules';
 
 export default function Banner() {
 
@@ -44,10 +45,12 @@ export default function Banner() {
             >
                 {images.map((image, index) => (
                     <SwiperSlide key={`carousel-item-${index}`}>
-                        <img
+                        <Image
                             src={image}
                             alt={`Slide ${index + 1}`}
                             className="w-full h-[26.5rem] object-cover"
+                            width={1000}
+                            height={500}
                         />
                     </SwiperSlide>
                 ))}
