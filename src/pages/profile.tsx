@@ -1,4 +1,4 @@
-import Navbar from "@/components/Header";
+import Navbar from "@/components/NavBar/Header";
 import { useAuth0 } from "@auth0/auth0-react";
 import Image from "next/image";
 import { useEffect } from "react";

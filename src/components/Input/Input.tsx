@@ -3,7 +3,7 @@ import React from "react";
 interface InputProps {
     customComponent?: React.ReactNode;
     inputValue: string;
-    onInputChange: (value: string) => void;
+    onInputChange: any;
     type?: string;
     placeholder?: string;
     id?: string,

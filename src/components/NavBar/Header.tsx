@@ -27,12 +27,12 @@ const Navbar: React.FC = () => {
     setIsOpen(false);
   };
 
-  // const handleLogout = () => {
-  //   logout({
-  //     logoutParams: {
-  //       returnTo: window.location.origin,
-  //     },
-  //   });
+  const handleLogout = () => {
+    logout({
+      logoutParams: {
+        returnTo: window.location.origin,
+      },
+    });
   }
 
   return (
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
           ) : (
             <div className="hidden sm:flex sm:w-[175px]">
               <Button label="Log In" onClick={handleLogin} variant="primary" className="h-[40px] px-[16px]" customStyle={{ backgroundColor: 'white', border: `0`, color : `black`}}/>
-              <Button label="Sign Up" onClick={handleLogin} variant="action"  className="bg-white h-[40px] px-[16px]"/>
+              <Button label="Sign Up" onClick={handleLogout} variant="action"  className="bg-white h-[40px] px-[16px]"/>
             </div>
           )}
           <button className="ml-[25px] text-gray-600 hover:text-gray-900 block sm:hidden" onClick={openSidebar}>
