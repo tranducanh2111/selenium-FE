@@ -42,6 +42,7 @@ export default function Banner() {
                 // Only allow 1 slide per view
                 slidesPerView={1}
                 loop={true}
+                speed={1500}
             >
                 {images.map((image, index) => (
                     <SwiperSlide key={`carousel-item-${index}`}>
