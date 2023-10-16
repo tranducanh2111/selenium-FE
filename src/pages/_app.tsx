@@ -1,7 +1,7 @@
 import React from "react";
 import { Auth0Provider } from '@auth0/auth0-react';
 import { AppProps } from "next/app";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/NavBar/Header";
 import Layout from "@/components/Layout";

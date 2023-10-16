@@ -52,8 +52,6 @@ const HeadingSection = ({
     categories,
     selectedCategoryIndex,
     setSelectedCategoryIndex,
-    setFilteredData,
-    inputData,
 }: HeadingSectionProps) => {
     return (
         <div className="mb-[24px] w-full flex flex-col sm:flex-row justify-between items-center space-y-[12px] sm:space-y-0">
@@ -66,10 +64,8 @@ const HeadingSection = ({
                 {showFilterBar && (
                     <Tab
                         categories={categories}
-                        inputData={inputData}
                         selectedCategoryIndex={selectedCategoryIndex}
                         setSelectedCategoryIndex={setSelectedCategoryIndex}
-                        setFilteredData={setFilteredData}
                     />
                 )}
             </div>

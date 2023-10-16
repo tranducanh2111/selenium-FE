@@ -58,7 +58,7 @@ const Workshop = () => {
             <section className='space-y-[4px] w-full max-w-[518px]'>
                 <h2 className="text-h3 sm:text-h2 text-center">Be a part of Selenium!</h2>
                 <p className="text-grey text-center text-sm leading-6">
-                    "Join us in shaping the future of innovation! Be a vital part of Selenium and revolutionize the consumer experience. Join Selenium today!"
+                    Join us in shaping the future of innovation! Be a vital part of Selenium and revolutionize the consumer experience. Join Selenium today!
                 </p>
             </section>
            

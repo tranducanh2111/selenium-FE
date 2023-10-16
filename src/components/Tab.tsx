@@ -1,54 +1,18 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import Button from '@/components/Buttons/Button';
-import PreviousArrowSvg from '../../public/previous-arrow.svg';
-import NextArrowSvg from '../../public/next-arrow.svg';
-
-// Define a type for the test data
-type TestData = {
-    imageURL: string;
-    name: string;
-    descriptions: string;
-    testURL: string;
-};
-
-// Define a type for the inputData object
-type inputData = {
-    [key: string]: TestData[];
-};
+import PreviousArrowSvg from 'public/previous-arrow.svg';
+import NextArrowSvg from 'public/next-arrow.svg';
 
 const Tab = ({
     categories,
     selectedCategoryIndex,
     setSelectedCategoryIndex,
-    setFilteredData,
-    inputData,
 }: {
-    categories: string[];
-    selectedCategoryIndex: number;
-    setSelectedCategoryIndex: (index: number) => void;
-    setFilteredData: (data: TestData[]) => void;
-    inputData: inputData;
+    categories: any;
+    selectedCategoryIndex: any;
+    setSelectedCategoryIndex: any;
 }) => {
-    // Pagination variables
-    const itemsPerPage = 3;
-    const [currentPage, setCurrentPage] = useState(1);
     const filterButtonContainerRef = useRef<HTMLDivElement | null>(null); // Ref for the filter button container
-
-    // Function to handle category filter changes
-    useEffect(() => {
-        // Update the filtered data when the selected category changes
-        const selectedCategory = categories[selectedCategoryIndex];
-        const filteredPeople = selectedCategory
-        ? inputData[selectedCategory]
-        : Object.values(inputData).flat();
-        setFilteredData(filteredPeople);
-        setCurrentPage(1); // Reset to the first page when changing filters
-    }, [selectedCategoryIndex, categories, inputData, setFilteredData]);
-
-    // Function to handle button click
-    // const handleButtonClick = (index: number) => {
-    //     setSelectedCategoryIndex(index);
-    // };
 
     // Function to navigate to the next category
     const handleNextCategory = () => {
@@ -75,7 +39,7 @@ const Tab = ({
                     className='h-[36px] px-[12px] text-sm'
                 /> */}
                 {/* Button for categories */}
-                {categories.map((category, index) => (
+                {categories.map((category : any, index : any) => (
                     <Button
                         key={category}
                         title={category}

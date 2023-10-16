@@ -7,8 +7,6 @@ import Logo from 'public/Logo.png'
 import Search from './Search'
 import Button from '@/components/Buttons/Button'
 import SideLogo from 'public/Sidebar.svg'
-import { ArticleProps } from '@/components/Article/Article'
-import TestImg from 'public/Test.png'
 
 // const Navbar: React.FC<{openSidebar: () => void, openProfile: () => void}> = ({openSidebar, openProfile}) => {
 const Navbar: React.FC<{openSidebar: () => void, toggleProfile : () => void}> = ({openSidebar, toggleProfile }) => {  

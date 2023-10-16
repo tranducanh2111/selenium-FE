@@ -1,4 +1,3 @@
-import Navbar from "@/components/NavBar/Header";
 import { useAuth0 } from "@auth0/auth0-react";
 import Image from "next/image";
 import { useEffect } from "react";
@@ -16,7 +15,6 @@ const Profile: React.FC = () => {
   return (
     user && (
       <>
-        <Navbar />
         <div className="flex flex-col items-center mt-10">
           {user.picture && typeof user.picture === "string" && (
             <Image
