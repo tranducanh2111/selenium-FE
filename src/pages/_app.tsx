@@ -12,7 +12,7 @@ import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
-  const pathName = usePathname();
+  // const pathName = usePathname();
   const AUTH0_DOMAIN: string = process.env.NEXT_PUBLIC_AUTH0_DOMAIN
     ? process.env.NEXT_PUBLIC_AUTH0_DOMAIN
     : "";
@@ -29,10 +29,6 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 
   const closeSidebar = () => {
     setIsOpen(false)
-  }
-
-  const openProfile = () => {
-    setProfileIsOpen(true)
   }
 
   const closeProfile = () => {

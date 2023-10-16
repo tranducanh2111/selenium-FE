@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import testOverviewData from '@/dummy-data/testOverview.json';
 import HeadingSection from '@/components/SectionHeader';
 import PrimaryCard from "@/components/PrimaryCard";
@@ -7,7 +7,7 @@ type TestData = {
     imageURL: string;
     name: string;
     descriptions: string;
-    testURL: string;
+    productURL: string;
 };
 
 const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} : {sectionName : string, description : string, viewMoreLink : string, showFilter : boolean}) => {
@@ -28,7 +28,12 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 	const endIndex = startIndex + itemsPerPage;
 	const itemsToShow = filteredData.slice(startIndex, endIndex);
 
-	// Check if the window width is smaller than "sm" breakpoint
+	const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+
+	// Handle page change
+    const handlePageChange = (page: number) => {
+        setCurrentPage(page);
+    };
 
 	useEffect(() => {
 		// Initialize filtered data when the component mounts
@@ -45,7 +50,7 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 				{/* Heading Section */}
 				<HeadingSection
 					categories={categories}
-					inputData={testOverview} // Pass the testOverview data as a prop
+					inputData={testOverview}
 					selectedCategoryIndex={selectedCategoryIndex}
 					setSelectedCategoryIndex={setSelectedCategoryIndex}
 					setFilteredData={setFilteredData}
@@ -54,18 +59,17 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 					viewMoreLink={viewMoreLink}
 					showFilterBar={showFilter}
 				/>
-				{/* Pagination bar
-				<div className="pagination-bar">
+				<div className="pagination-bar hidden">
 				{Array.from({ length: totalPages }, (_, i) => (
 					<button
-					key={i + 1}
-					className={`pagination-button ${currentPage === i + 1 ? 'active' : ''}`}
-					onClick={() => handlePageChange(i + 1)}
+						key={i + 1}
+						className={`pagination-button ${currentPage === i + 1 ? 'active' : ''}`}
+						onClick={() => handlePageChange(i + 1)}
 					>
 					{i + 1}
 					</button>
 				))}
-				</div> */}
+				</div>
 		</main>
 		<div className='w-full h-[480px] overflow-x-auto hide-scrollbar'>
 			<div className="flex justify-between sm:w-full w-[210vw] min-w-[1000px]">
@@ -76,7 +80,7 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 						imageURL={test.imageURL}
 						name={test.name}
 						descriptions={test.descriptions}
-						testURL={test.testURL}
+						testURL={test.productURL}
 					/>
 				))}
 			</div>

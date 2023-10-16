@@ -46,9 +46,9 @@ const Tab = ({
     }, [selectedCategoryIndex, categories, inputData, setFilteredData]);
 
     // Function to handle button click
-    const handleButtonClick = (index: number) => {
-        setSelectedCategoryIndex(index);
-    };
+    // const handleButtonClick = (index: number) => {
+    //     setSelectedCategoryIndex(index);
+    // };
 
     // Function to navigate to the next category
     const handleNextCategory = () => {

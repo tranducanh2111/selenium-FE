@@ -4,7 +4,6 @@ import FacebookLogo from './Icons/facebook';
 import TwitterLogo from './Icons/twitter';
 import InstagramLogo from './Icons/instagram';
 import GitHubLogo from './Icons/github';
-import CopyrightLogo from './Icons/copyright';
 
 const Footer = () => {
     return (

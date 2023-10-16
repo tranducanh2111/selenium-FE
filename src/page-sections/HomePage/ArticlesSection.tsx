@@ -1,7 +1,5 @@
 import { ArticleProps } from '@/components/Article/Article'
 import ArticleList from '@/components/Article/ArticleList'
-import Button from '@/components/Buttons/Button'
-import Heading from '@/components/Heading'
 import ArrowRight from 'public/arrow-right.svg'
 import TestImg from 'public/Test.png'
 import React from 'react'
@@ -15,11 +13,8 @@ import {
   Autoplay,
 } from 'swiper/modules'
 import HeadingSection from '@/components/SectionHeader'
-const ArticlesSection: React.FC = () => {
-  const handleClick = () => {
-    console.log('clicked')
-  }
 
+const ArticlesSection: React.FC = () => {
   const tests: ArticleProps[] = [
     {
       imgSrc: TestImg,
@@ -78,9 +73,7 @@ const ArticlesSection: React.FC = () => {
                     <p className="font-bold lg:max-w-[250px] h-[72px] line-clamp-3 overflow-hidden">
                       {article.description}
                     </p>
-                    <button
-                      className="flex items-center my-[8px] text-body font-bold text-primary gap-2 pl-0"
-                      onClick={handleClick}>
+                    <button className="flex items-center my-[8px] text-body font-bold text-primary gap-2 pl-0">
                       <p>Read article</p>
                       <Image
                         src={ArrowRight}

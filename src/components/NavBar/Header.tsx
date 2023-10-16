@@ -20,27 +20,6 @@ const Navbar: React.FC<{openSidebar: () => void, toggleProfile : () => void}> = 
     })
   }
 
-  const tests: ArticleProps[] = [
-    {
-      imgSrc: TestImg,
-      description:
-        'Possible charges Cardi B might face after throwing a microphone at an audience member',
-      url: 'https://www.google.com/',
-    },
-    {
-      imgSrc: TestImg,
-      description:
-        'Possible charges Cardi B might face after throwing a microphone at an audience member',
-      url: 'https://www.google.com/',
-    },
-    {
-      imgSrc: TestImg,
-      description:
-        'Possible charges Cardi B might face after throwing a microphone at an audience member',
-      url: 'https://www.google.com/',
-    },
-  ]
-
   return (
     <>
       <nav className="bg-white-800 pt-[16px] h-[86px]">
