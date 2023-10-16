@@ -44,13 +44,17 @@ const Footer = () => {
                     </ul>
                 </section>
             </section>
-            <section className='copyright bg-[#E6E6E6] text-[#818181] flex justify-between px-12 py-5'>
-                <div className="flex items-center">
-                    <CopyrightLogo />
-                    <p className="ml-2">2022 Selenium. All rights reserved.</p>
+            <div className="bg-secondary px-[30px] sm:px-[70px] py-[8px]">
+                <div className="text-center sm:flex justify-between w-[100%] m-auto py-2 text-gray-600">
+                    <p className="text-footnote">
+                        &copy; {new Date().getFullYear()} Selenium. All rights reserved.
+                    </p>
+                    <p className="text-footnote">
+                        Contact us:{' '}
+                        <a href="mailto:contact@selunium.com.au">contact@selunium.com.au</a>
+                    </p>
                 </div>
-                <p>Contact us: contact@selenium.com.au</p>
-            </section>
+            </div>
         </main>
     );
 };

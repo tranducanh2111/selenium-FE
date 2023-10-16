@@ -1,9 +1,15 @@
 import React from 'react'
+import Image from 'next/image'
+import SideLogo from 'public/Sidebar.svg'
+import HomeIcon from 'public/home-icon.svg'
+import BookIcon from 'public/BookIcon.svg'
+import BlogIcon from 'public/BlogIcon.svg'
+import TeamIcon from 'public/TeamIcon.svg'
+import BookLib from 'public/book.svg'
 import Menu from '@/components/NavBar/Menu'
-import MenuSymbol from '@/components/Icons/menu'
-import BookSymbol from '@/components/Icons/book'
+import Link from 'next/link'
 
-interface SidebarModalProps {
+export interface SidebarModalProps {
   isOpen: boolean
   closeSidebar: () => void
   openSidebar: () => void
@@ -15,45 +21,92 @@ const SidebarModal = ({
   openSidebar,
 }: SidebarModalProps) => {
   return (
-    <nav className='sticky top-0 z-50'>
+    <>
       <div
-        className={`fixed inset-0 bg-black opacity-50 transition-opacity z-50 ${
-          isOpen ? 'block z-50' : 'hidden'
+        className={`fixed inset-0 z-50 sm:z-0 ${
+          isOpen ? 'block bg-black opacity-50 sm:opacity-0' : 'hidden '
         }`}
         onClick={closeSidebar}></div>
+
+      {/* Extended sidebar */}
       <div
-        className={`fixed inset-y-0 left-0 w-64 bg-white shadow-xl transform -translate-x-full transition-transform z-50 ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
-        }`}>
-        <div className="flex justify-between items-center">
-          {/* <button
-            className="p-6 text-gray-600 hover:text-gray-900 absolute top-[20px] right-0"
-            onClick={closeSidebar}>
-            <Image src={SideLogo} alt="Logo" width={30} height={30} />
-          </button> */}
-          <div className="p-4 mt-[20px]">
-            {/* Sidebar content goes here */}
-            <h2 className="text-xl font-semibold mb-4">Dashboard</h2>
+        className={`sm:sticky sticky top-0 inset-y-0 fixed right-0 sm:left-0 top-21 z-50 sm:z-0 bg-white mr-0 ${
+          isOpen ? 'w-[230px]' : 'w-[70px] invisible sm:visible duration-0'
+        } duration-100`}>
+        <div
+          className={`px-4 justify-between flex items-center w-full mb-[35px] ${
+            !isOpen && 'hidden'
+          }`}>
+          <div className="hidden sm:block">
+            <h2 className="text-xl font-semibold ">Dashboard</h2>
           </div>
+          <button className="pl-[70px] hidden sm:block" onClick={closeSidebar}>
+            <Image src={SideLogo} alt="Logo" width={20} height={20} />
+          </button>
         </div>
-        <Menu />
+        <div className={`${!isOpen && 'hidden'} pl-2 pt-6 sm:p-0`}>
+          <Menu />
+        </div>
       </div>
-      <div className="bg-[#EEEEEE] hidden sm:block w-[70px] absolute top-20">
-        <div className="p-[8px] pl-[16px] flex flex-col justify-items-stretch justify-start bg-white h-[200px] max-h-[540px] space-y-[16px]">
+
+      {/* Small sidebar */}
+      <div
+        className={`bg-[#EEEEEE] hidden sm:block w-[70px] absolute z-50 sm:z-0 top-21 ${
+          isOpen ? 'invisible' : 'visible'
+        } duration-50`}>
+        <div className="p-[8px] flex flex-col justify-items-stretch justify-start bg-white h-screen items-center">
           <div
-            className="menu_bar cursor-pointer mx-auto"
+            className="menu_bar mb-[50px] cursor-pointer"
             onClick={openSidebar}>
-            <MenuSymbol />
+            <Image src={SideLogo} alt="Logo" width={20} height={20} />
           </div>
-          <div className="menu_bar mx-auto">
-            <BookSymbol />
-          </div>
-          <div className="menu_bar mx-auto">
-            <BookSymbol />
-          </div>
+          <Link href="/">
+            <div className="menu_bar mb-[36px]">
+              <Image
+                src={HomeIcon}
+                alt="Logo"
+                width={20}
+                height={20}
+                className="w-6 h-6"
+              />
+            </div>
+          </Link>
+          <Link href="/collection">
+            <div className="menu_bar mb-[36px]">
+              <Image
+                src={BookLib}
+                alt="Logo"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
+            </div>
+          </Link>
+          <Link href="/book">
+            <div className="menu_bar mb-[36px]">
+              <Image
+                src={BookIcon}
+                alt="Logo"
+                width={20}
+                height={20}
+                className="w-6 h-6"
+              />
+            </div>
+          </Link>
+          <Link href="/team">
+            <div className="menu_bar mb-[36px]">
+              <Image
+                src={TeamIcon}
+                alt="Logo"
+                width={20}
+                height={20}
+                className="w-6 h-6"
+              />
+            </div>
+          </Link>
         </div>
       </div>
-    </nav>
+    </>
   )
 }
 export default SidebarModal

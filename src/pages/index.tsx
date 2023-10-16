@@ -1,38 +1,39 @@
-import React, { Fragment } from "react";
-import Head from "next/head";
-import Header from "@/components/NavBar/Header";
-import Banner from "@/components/Banner";
-import Footer from "@/components/Footer";
-
-// import FilteredListPanelSection from "@/page-sections/HomePage/FilteredListPanelSection";
-import WorkshopSection from "@/page-sections/HomePage/WorkshopSection";
-// import BlockSection from "@/page-sections/HomePage/BlockSection";
-// import TestimonialsSection from "@/page-sections/HomePage/TestimonialSection";
-// import ArticleListSection from "@/page-sections/HomePage/ArticleListSection";
-// import ContactSection from "@/page-sections/HomePage/ContactSection";
+import React, { Fragment } from 'react'
+import Head from 'next/head'
+import ProductSection from '@/page-sections/HomePage/CourseSection'
+import HomeBanner from '@/components/Banner'
+import TestimonialsSection from '@/page-sections/HomePage/CommentSection'
+import WorkshopSection from '@/page-sections/HomePage/WorkshopSection'
+import ArticlesSection from '@/page-sections/HomePage/ArticlesSection'
 
 const Home: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>Selenium</title>
+        <title>IELTS PLATFORM</title>
       </Head>
-      <Header/>
-      <main>
-        <div id="homepage" className="sm:pl-[70px] space-y-16">
-          <Banner/>
+      <div className="homepage relative bg-white">
+        <HomeBanner/>
+        <div className="max-w-[1190px] flex flex-col mx-auto mt-[60px] mb-10 gap-[60px] px-5">
+          <ProductSection
+            sectionName={"New Arrivals"}
+            viewMoreLink={"#"}
+            description={"Explore the Latest Arrivals! Stay ahead of the curve with our newest products, innovations, and must-haves. From cutting-edge tech to timeless classics, find what's trending and elevate your lifestyle with our latest offerings."}
+            showFilter={true}
+          />
+           <ProductSection
+            sectionName={"Best seller"}
+            viewMoreLink={"#"}
+            description={"With its lightweight design, unmatched durability, and superior grip, our products are the choice of champions. Elevate your game to new heights with this powerhouse."}
+            showFilter={false}
+          />
+          <ArticlesSection/>
           <WorkshopSection />
-          {/* <FilteredListPanelSection />
-          
-          <BlockSection />
-          <TestimonialsSection />
-          <ArticleListSection />
-          <ContactSection /> */}
         </div>
-      </main>
-      <Footer/>
+        <TestimonialsSection />
+      </div>
     </Fragment>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

@@ -1,42 +1,57 @@
-import React from 'react';
-import styles from '@/styles/components/button.module.css';
+import { StaticImageData } from 'next/image'
+import React from 'react'
+import Image from 'next/image'
 
 interface ButtonProps {
-    label?: React.ReactNode;
-    onClick?: () => void;
-    customStyle?: React.CSSProperties; // Accept a inline style prop
-    className?: string;
-    id?: string;
-    variant: 'action' | 'primary' | 'secondary';
+  title?: string
+  onClick?: () => void
+  textColor?: string
+  bgColor?: string
+  icon?: StaticImageData
+  className?: string
+  classNameIcon?: string
+  disabled?: boolean
 }
 
-const Button: React.FC<ButtonProps> = ({ label, onClick, customStyle, variant = 'primary', className, id }) => {
-    // Define the base class based on the variant prop
-    let buttonClass = '';
+const Button: React.FC<ButtonProps> = ({
+  title,
+  onClick,
+  textColor,
+  bgColor,
+  icon,
+  className,
+  classNameIcon,
+  disabled = false,
+}: ButtonProps) => {
 
-    switch (variant) {
-        case 'action':
-            buttonClass = styles['action-button'];
-            break;
-        case 'primary':
-            buttonClass = styles['primary-button'];
-            break;
-        case 'secondary':
-            buttonClass = styles['secondary-button'];
-            break;
-        default:
-            buttonClass = styles['primary-button'];
-            break;
-    }
+  const buttonClasses = `px-3 h-[36px] rounded-md transition duration-300 ease-in-out text-[${textColor}] bg-[${bgColor}] ${
+    className || ''
+  }`
 
-    // Add the provided className and the calculated buttonClass
-    buttonClass = `${buttonClass} ${className || ''}`;
+  return (
+    <button
+      className={buttonClasses}
+      onClick={onClick}
+      disabled={disabled}
+      aria-label={title}
+    >
+      {icon ? (
+        <span className='flex items-center'>
+          <Image
+            src={icon}
+            alt="Logo"
+            width={20}
+            height={20}
+            className={classNameIcon}
+          />
+          <span className='ml-1 max-w-content text-base'>{title}</span>
+        </span>
+      )
+      :(
+        title
+      )}
+    </button>
+  )
+}
 
-    return (
-        <button className={buttonClass} onClick={onClick} style={customStyle} id={id}>
-            {label}
-        </button>
-    );
-};
-
-export default Button;
+export default Button

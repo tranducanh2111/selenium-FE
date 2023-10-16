@@ -1,0 +1,123 @@
+{
+    "Nike": [
+      {
+        "productType": "Shoes",
+        "imageURL": "/demo1.jpg",
+        "name": "Nike Air Max 2023",
+        "descriptions": "The latest Nike Air Max shoes with advanced cushioning technology for ultimate comfort.",
+        "productURL": ""
+      },
+      {
+        "productType": "Shirt",
+        "imageURL": "/demo1.jpg",
+        "name": "Nike Dri-FIT Men's T-Shirt",
+        "descriptions": "Stay cool and comfortable in this moisture-wicking Nike Dri-FIT shirt.",
+        "productURL": ""
+      },
+      {
+        "productType": "Hoodie",
+        "imageURL": "/demo1.jpg",
+        "name": "Nike Tech Fleece Hoodie",
+        "descriptions": "A stylish and warm hoodie for those chilly days.",
+        "productURL": ""
+      },
+      {
+        "productType": "Pants",
+        "imageURL": "/demo1.jpg",
+        "name": "Nike Club Fleece Pants",
+        "descriptions": "Comfortable and versatile pants for your active lifestyle.",
+        "productURL": ""
+      }
+    ],
+    "Adidas": [
+      {
+        "productType": "Shoes",
+        "imageURL": "/demo1.jpg",
+        "name": "Adidas Ultraboost 2022",
+        "descriptions": "Experience unmatched energy return with Adidas Ultraboost running shoes.",
+        "productURL": ""
+      },
+      {
+        "productType": "Shirt",
+        "imageURL": "/demo1.jpg",
+        "name": "Adidas Trefoil Tee",
+        "descriptions": "A classic Adidas tee with a bold Trefoil logo.",
+        "productURL": ""
+      },
+      {
+        "productType": "Hoodie",
+        "imageURL": "/demo1.jpg",
+        "name": "Adidas Z.N.E. Hoodie",
+        "descriptions": "A comfortable and stylish hoodie for athletes on the go.",
+        "productURL": ""
+      },
+      {
+        "productType": "Pants",
+        "imageURL": "/demo1.jpg",
+        "name": "Adidas Tiro 19 Training Pants",
+        "descriptions": "Perfect for training and casual wear, these pants offer a slim fit and moisture-wicking fabric.",
+        "productURL": ""
+      }
+    ],
+    "Puma": [
+      {
+        "productType": "Shoes",
+        "imageURL": "/demo1.jpg",
+        "name": "Puma Future Rider 2021",
+        "descriptions": "Experience comfort and style with Puma Future Rider sneakers.",
+        "productURL": ""
+      },
+      {
+        "productType": "Shirt",
+        "imageURL": "/demo1.jpg",
+        "name": "Puma Essential Logo Tee",
+        "descriptions": "A classic Puma logo tee for everyday wear.",
+        "productURL": ""
+      },
+      {
+        "productType": "Hoodie",
+        "imageURL": "/demo1.jpg",
+        "name": "Puma Amplified Hoodie",
+        "descriptions": "Stay cozy and stylish with this Puma hoodie.",
+        "productURL": ""
+      },
+      {
+        "productType": "Pants",
+        "imageURL": "/demo1.jpg",
+        "name": "Puma Essentials Sweatpants",
+        "descriptions": "Relax in comfort with Puma Essentials sweatpants.",
+        "productURL": ""
+      }
+    ],
+    "Under Armour": [
+      {
+        "productType": "Shoes",
+        "imageURL": "/demo1.jpg",
+        "name": "UA HOVR Phantom 2023",
+        "descriptions": "Elevate your running experience with Under Armour HOVR Phantom shoes.",
+        "productURL": ""
+      },
+      {
+        "productType": "Shirt",
+        "imageURL": "/demo1.jpg",
+        "name": "UA 2.0 Short Sleeve T-Shirt",
+        "descriptions": "Stay cool and dry during workouts with this Under Armour Tech shirt.",
+        "productURL": ""
+      },
+      {
+        "productType": "Hoodie",
+        "imageURL": "/demo1.jpg",
+        "name": "UA Rival Fleece Hoodie",
+        "descriptions": "Warm and comfortable, the Rival Fleece Hoodie is perfect for cold days.",
+        "productURL": ""
+      },
+      {
+        "productType": "Pants",
+        "imageURL": "/demo1.jpg",
+        "name": "Under Armour Sportstyle Joggers",
+        "descriptions": "Achieve style and comfort with Under Armour Sportstyle joggers.",
+        "productURL": ""
+      }
+    ]
+  }
+  

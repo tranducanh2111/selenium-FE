@@ -1,7 +1,6 @@
 import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Image from "next/image";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -18,7 +17,6 @@ export default function Banner() {
         '/banner2.jpg',
         '/banner3.jpg',
         '/banner4.jpg',
-        '/banner5.jpg',
     ];
 
     return (
@@ -42,16 +40,13 @@ export default function Banner() {
                 // Only allow 1 slide per view
                 slidesPerView={1}
                 loop={true}
-                speed={1500}
             >
                 {images.map((image, index) => (
                     <SwiperSlide key={`carousel-item-${index}`}>
-                        <Image
+                        <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-full h-[26.5rem] object-cover"
-                            width={1000}
-                            height={500}
+                            className="w-full h-[24rem] sm:h-[36rem] object-cover"
                         />
                     </SwiperSlide>
                 ))}
