@@ -11,6 +11,7 @@ interface ButtonProps {
   className?: string
   classNameIcon?: string
   disabled?: boolean
+  link? : string
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -22,16 +23,24 @@ const Button: React.FC<ButtonProps> = ({
   className,
   classNameIcon,
   disabled = false,
+  link,
 }: ButtonProps) => {
 
   const buttonClasses = `px-3 h-[36px] rounded-md transition duration-300 ease-in-out text-[${textColor}] bg-[${bgColor}] ${
     className || ''
   }`
 
+  // Function to handle button click and navigate to the link
+  const handleClick = () => {
+    if (link) {
+      window.location.href = link; // Change the page's location to the specified link
+    }
+  };
+
   return (
     <button
       className={buttonClasses}
-      onClick={onClick}
+      onClick={link ? handleClick : onClick}
       disabled={disabled}
       aria-label={title}
     >

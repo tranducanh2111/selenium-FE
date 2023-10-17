@@ -22,15 +22,14 @@ const PrimaryCard: React.FC<CardProps> = ({ imageURL, name, descriptions, testUR
         <article className='px-[16px] sm:space-y-[12px] space-y-[9px]'>
             <h3 className='text-h3 line-clamp-1'>{name}</h3>
             <p className='overflow-y-hidden h-[44px] w-auto leading-[22px] text-grey text-body'>{descriptions}</p>
-            <Link href={testURL}>
-                <Button
-                    title="See details"
-                    icon={ArrowSvg}
-                    textColor="#FFFFFF"
-                    bgColor="#FF6D33"
-                    className='border border-solid border-[#FFA380] py-[6px] px-[15px] max-w-content'
-                />
-            </Link>
+            <Button
+                title="See details"
+                icon={ArrowSvg}
+                textColor="#FFFFFF"
+                bgColor="#FF6D33"
+                className='border border-solid border-[#FFA380] py-[6px] px-[15px] max-w-content'
+                link={testURL}
+            />
         </article>
     </section>
   );
