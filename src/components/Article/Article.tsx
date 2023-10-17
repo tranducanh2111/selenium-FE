@@ -27,7 +27,7 @@ const Article: React.FC<ArticleProps> = ({ imgSrc, description, url }) => {
         />
       </div>
       <div>
-        <p className="font-bold lg:max-w-[250px] h-[72px] line-clamp-3 overflow-hidden ">{description}</p>
+        <p className="font-bold lg:max-w-[250px] h-[48px] line-clamp-2 overflow-hidden ">{description}</p>
         <button
           className="text-[#FF5A1A] flex items-center my-[8px] text-body font-bold gap-2 pl-0"
           onClick={handleClick}>
