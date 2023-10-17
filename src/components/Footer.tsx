@@ -21,7 +21,7 @@ const Footer = () => {
                             className='float-left'
                         />
                     </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel autem, debitis excepturi fugiat labore vitae eum, voluptas illo laboriosam laborum eos nulla hic aliquid! Cumque labore rerum atque. Sit, quod.</p>
+                    <p>Our mission is to fuel your athletic journey. Our commitment to excellence, outstanding customer service, and competitive pricing make us your one-stop destination for all things sports. Let's gear up for success together!</p>
                     <span className='icon-container  flex space-x-4'>
                         <button><a href=""><FacebookLogo /></a></button>
                         <button><a href=""><TwitterLogo /></a></button>
@@ -33,13 +33,13 @@ const Footer = () => {
                 <section className='space-y-3'>
                     <h6 className='font-bold text-orange text-sm leading-5'>Company</h6>
                     <ul className='text-sm leading-5 space-y-2.5'>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Careers</a></li>
-                        <li><a href="">Support</a></li>
-                        <li><a href="">Testimonials</a></li>
-                        <li><a href="">Terms of service</a></li>
-                        <li><a href="">Privacy policy</a></li>
-                        <li><a href="">Cookie policy</a></li>
+                        <li className='hover:text-[#FF5A1A]'><a href="">About</a></li>
+                        <li className='hover:text-[#FF5A1A]'><a href="">Careers</a></li>
+                        <li className='hover:text-[#FF5A1A]'><a href="">Support</a></li>
+                        <li className='hover:text-[#FF5A1A]'><a href="">Testimonials</a></li>
+                        <li className='hover:text-[#FF5A1A]'><a href="">Terms of service</a></li>
+                        <li className='hover:text-[#FF5A1A]'><a href="">Privacy policy</a></li>
+                        <li className='hover:text-[#FF5A1A]'><a href="">Cookie policy</a></li>
                     </ul>
                 </section>
             </section>

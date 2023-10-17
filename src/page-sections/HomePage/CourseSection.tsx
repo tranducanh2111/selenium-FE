@@ -72,7 +72,7 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 				</div>
 		</main>
 		<div className='w-full h-[480px] overflow-x-auto hide-scrollbar'>
-			<div className="flex justify-between sm:w-full w-[210vw] min-w-[1000px]">
+			<div className="flex justify-between sm:w-full w-[200vw] min-w-[1000px]">
 			{/* <div className="w-full min-w-[820px]"> */}
 				{itemsToShow.map((test, index) => (
 					<PrimaryCard

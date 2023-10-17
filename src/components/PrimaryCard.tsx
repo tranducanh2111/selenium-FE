@@ -14,7 +14,7 @@ type CardProps = {
 
 const PrimaryCard: React.FC<CardProps> = ({ imageURL, name, descriptions, testURL }) => {
   return (
-    <section className="h-[460px] w-[78vw] sm:max-w-[314px] aspect-[314/381] rounded-[12px] bg-[#FBFDFF] shadow-lg">
+    <section className="h-[460px] w-[78vw] max-w-[300px] sm:max-w-[314px] aspect-[314/381] rounded-[12px] bg-[#FBFDFF] shadow-lg">
         <figure className="relative w-[100%] h-[65%] mb-[12px] object-cover">
             <Image src={imageURL} alt={name} layout='fill' className='w-full h-full object-cover rounded-t-[12px]' />
         </figure>

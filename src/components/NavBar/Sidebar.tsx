@@ -29,7 +29,7 @@ const SidebarModal = ({
 
       {/* Extended sidebar */}
       <div
-        className={`sm:sticky sticky top-0 inset-y-0 fixed right-0 sm:left-0 top-21 z-50 sm:z-0 bg-white mr-0 ${
+        className={`sm:relative fixed inset-y-0 right-0 sm:left-0 top-21 z-50 sm:z-0 bg-white mr-0 ${
           isOpen ? 'w-[230px]' : 'w-[70px] invisible sm:visible duration-0'
         } duration-100`}>
         <div

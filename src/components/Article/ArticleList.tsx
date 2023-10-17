@@ -3,7 +3,7 @@ import Article, { ArticleProps } from './Article'
 
 const ArticleList: React.FC<{ articles: ArticleProps[] }> = ({ articles }) => {
   return (
-    <div className="sm:min-w-[1000px] articles text-h5 grid grid-cols-1 lg:grid-cols-3 gap-x-22 lg:gap-x-4 gap-y-10">
+    <div className="draggable sm:min-w-[1000px] articles text-h5 grid grid-cols-1 lg:grid-cols-3 gap-x-22 lg:gap-x-4 gap-y-10 cursor-grab active:cursor-grabbing">
       {articles.map((article, index) => (
         <div
           key={index}

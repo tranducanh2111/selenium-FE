@@ -73,8 +73,8 @@ const NavBarProfile: React.FC<{isProfileOpen : boolean, closeProfile: () => void
   return (
     <>
         <div
-            className={`absolute inset-0 z-20 ${
-            isProfileOpen ? 'block bg-black opacity-50' : 'hidden'
+            className={`sm:absolute inset-0 z-20 ${
+            isProfileOpen ? 'sm:block bg-black opacity-80' : 'hidden'
             }`}
             onClick={closeProfile}></div>
 
