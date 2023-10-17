@@ -21,7 +21,7 @@ const Footer = () => {
                             className='float-left'
                         />
                     </figure>
-                    <p>Our mission is to fuel your athletic journey. Our commitment to excellence, outstanding customer service, and competitive pricing make us your one-stop destination for all things sports. Let's gear up for success together!</p>
+                    <p>Our mission is to fuel your athletic journey. Our commitment to excellence, outstanding customer service, and competitive pricing make us your one-stop destination for all things sports. Let&apos;s gear up for success together!</p>
                     <span className='icon-container  flex space-x-4'>
                         <button><a href=""><FacebookLogo /></a></button>
                         <button><a href=""><TwitterLogo /></a></button>
