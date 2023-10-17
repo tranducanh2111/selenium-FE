@@ -45,8 +45,7 @@ const Tab = ({
                         title={category}
                         onClick={() => setSelectedCategoryIndex(index)}
                         textColor={`${selectedCategoryIndex === index ? '#FF4800' : '#000000'}`}
-                        bgColor={`${selectedCategoryIndex === index ? '#FFE8DF' : '#000000'}`}
-                        className={`h-[36px] px-[12px] text-sm max-w-content border border-solid ${selectedCategoryIndex === index ? 'border-[#FF4800]' : 'border-[#000000] opacity-50'}`}
+                        className={`h-[36px] px-[12px] text-sm max-w-content border border-solid ${selectedCategoryIndex === index ? 'text-[#FF4800] bg-[#FFE8DF] border-[#FF4800]' : 'text-[#000000] border-[#000000] opacity-50'}`}
                     />
                 ))}
             </div>
