@@ -3,7 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 import Button from '@/components/Buttons/Button';
 import ArrowSvg from 'public/arrow-head.svg';
-import Link from 'next/link';
 
 // Define the prop types for the Card component
 type CardProps = {
