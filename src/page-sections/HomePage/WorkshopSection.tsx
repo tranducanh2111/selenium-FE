@@ -83,7 +83,7 @@ const Workshop = () => {
                             onClick={() => setSelectedImageIndex(index)}
                             className={`flex-grow-0 flex-shrink-0 sm:flex-grow sm:flex-shrink rounded-[8px] object-cover ${selectedImageIndex === index ? 'relative border-4 sm:border-8 border-orange bg-orange' : ''}`}
                         >
-                            <div className="flex items-stretch h-full">
+                            <div className="flex items-stretch h-full  hover:opacity-80">
                                 <Image
                                     src={imageUrl}
                                     alt=""

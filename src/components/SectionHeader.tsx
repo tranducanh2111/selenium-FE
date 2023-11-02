@@ -70,7 +70,7 @@ const HeadingSection = ({
                 )}
             </div>
             {/* View More button */}
-            <a href={viewMoreLink} className="flex items-center max-w-content h-[30px] text-primary px-1 py-[4px] rounded-[2px] ml-auto">
+            <a href={viewMoreLink} className="flex items-center max-w-content h-[30px] text-primary px-1 py-[4px] rounded-[2px] ml-auto hover:scale-[1.1] transition duration-200 ease-in-out">
                 <Button className='font-medium text-[#FF6D33]' icon={ThinArrow} title='View more'/>
             </a>
         </div>

@@ -16,7 +16,7 @@ const Article: React.FC<ArticleProps> = ({ imgSrc, description, url }) => {
   }
 
   return (
-    <div className="flex gap-4 ">
+    <div className="flex gap-4 hover:scale-[1.05] transition duration-200 ease-in-out">
       <div className="image">
         <Image
           src={imgSrc}
@@ -31,7 +31,7 @@ const Article: React.FC<ArticleProps> = ({ imgSrc, description, url }) => {
         <button
           className="text-[#FF5A1A] flex items-center my-[8px] text-body font-bold gap-2 pl-0"
           onClick={handleClick}>
-          <p>Read article</p>
+          <p className='text-[#FF5A1A]'>Read article</p>
           <Image src={ArrowRight} alt="Logo" width={15} height={15} />
         </button>
       </div>

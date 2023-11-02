@@ -2,31 +2,35 @@
     "Nike": [
       {
         "productType": "Shoes",
-        "imageURL": "/demo1.jpg",
+        "imageURL": "/nike_shoes.jpg",
         "name": "Nike Air Max 2023",
         "descriptions": "The latest Nike Air Max shoes with advanced cushioning technology for ultimate comfort.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Shirt",
-        "imageURL": "/demo1.jpg",
+        "imageURL": "/nike_track_jacket.jpg",
         "name": "Nike Dri-FIT Men's T-Shirt",
         "descriptions": "Stay cool and comfortable in this moisture-wicking Nike Dri-FIT shirt.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Hoodie",
-        "imageURL": "/demo1.jpg",
-        "name": "Nike Tech Fleece Hoodie",
+        "imageURL": "/nike_gym_duffle.jpg",
+        "name": "Nike Tech Gym",
         "descriptions": "A stylish and warm hoodie for those chilly days.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Pants",
         "imageURL": "/demo1.jpg",
         "name": "Nike Club Fleece Pants",
         "descriptions": "Comfortable and versatile pants for your active lifestyle.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       }
     ],
     "Adidas": [
@@ -35,28 +39,32 @@
         "imageURL": "/demo1.jpg",
         "name": "Adidas Ultraboost 2022",
         "descriptions": "Experience unmatched energy return with Adidas Ultraboost running shoes.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Shirt",
         "imageURL": "/demo1.jpg",
         "name": "Adidas Trefoil Tee",
         "descriptions": "A classic Adidas tee with a bold Trefoil logo.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Hoodie",
         "imageURL": "/demo1.jpg",
         "name": "Adidas Z.N.E. Hoodie",
         "descriptions": "A comfortable and stylish hoodie for athletes on the go.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Pants",
         "imageURL": "/demo1.jpg",
         "name": "Adidas Tiro 19 Training Pants",
         "descriptions": "Perfect for training and casual wear, these pants offer a slim fit and moisture-wicking fabric.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       }
     ],
     "Puma": [
@@ -65,28 +73,32 @@
         "imageURL": "/demo1.jpg",
         "name": "Puma Future Rider 2021",
         "descriptions": "Experience comfort and style with Puma Future Rider sneakers.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Shirt",
         "imageURL": "/demo1.jpg",
         "name": "Puma Essential Logo Tee",
         "descriptions": "A classic Puma logo tee for everyday wear.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Hoodie",
         "imageURL": "/demo1.jpg",
         "name": "Puma Amplified Hoodie",
         "descriptions": "Stay cozy and stylish with this Puma hoodie.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Pants",
         "imageURL": "/demo1.jpg",
         "name": "Puma Essentials Sweatpants",
         "descriptions": "Relax in comfort with Puma Essentials sweatpants.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       }
     ],
     "Under Armour": [
@@ -95,28 +107,32 @@
         "imageURL": "/demo1.jpg",
         "name": "UA HOVR Phantom 2023",
         "descriptions": "Elevate your running experience with Under Armour HOVR Phantom shoes.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Shirt",
         "imageURL": "/demo1.jpg",
         "name": "UA 2.0 Short Sleeve T-Shirt",
         "descriptions": "Stay cool and dry during workouts with this Under Armour Tech shirt.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Hoodie",
         "imageURL": "/demo1.jpg",
         "name": "UA Rival Fleece Hoodie",
         "descriptions": "Warm and comfortable, the Rival Fleece Hoodie is perfect for cold days.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       },
       {
         "productType": "Pants",
         "imageURL": "/demo1.jpg",
         "name": "Under Armour Sportstyle Joggers",
         "descriptions": "Achieve style and comfort with Under Armour Sportstyle joggers.",
-        "productURL": ""
+        "productURL": "",
+"price": "$495.00"
       }
     ]
   }

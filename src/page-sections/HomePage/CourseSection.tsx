@@ -8,6 +8,8 @@ type TestData = {
     name: string;
     descriptions: string;
     productURL: string;
+	price: number;
+	productType: string
 };
 
 const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} : {sectionName : string, description : string, viewMoreLink : string, showFilter : boolean}) => {
@@ -46,7 +48,7 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 
 	return (
     <section>
-		<main className="flex flex-col justify-center p-[20px] sm:p-0">
+		<main className="flex flex-col justify-center p-[20px] lg:p-0">
 				{/* Heading Section */}
 				<HeadingSection
 					categories={categories}
@@ -71,8 +73,8 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 				))}
 				</div>
 		</main>
-		<div className='w-full h-[480px] overflow-x-auto hide-scrollbar'>
-			<div className="flex justify-between sm:w-full w-[200vw] min-w-[1000px]">
+		<div className='w-full overflow-x-auto hide-scrollbar'>
+			<div className="flex justify-between sm:w-full w-[200vw] min-w-[1000px] p-[20px]">
 			{/* <div className="w-full min-w-[820px]"> */}
 				{itemsToShow.map((test, index) => (
 					<PrimaryCard
@@ -81,6 +83,8 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 						name={test.name}
 						descriptions={test.descriptions}
 						testURL={test.productURL}
+						price={test.price}
+						category={test.productType}
 					/>
 				))}
 			</div>

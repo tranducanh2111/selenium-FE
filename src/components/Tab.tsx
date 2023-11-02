@@ -29,7 +29,7 @@ const Tab = ({
     return (
         <div className={`w-full flex items-center mt-[5px] space-x-1 hide-scrollbar`}>
             {/* Button switch to the previous category */}
-            <Button icon={PreviousArrowSvg} onClick={handlePreviousCategory} bgColor='#FF6D33' className='h-[36px] w-[46px] px-[15px] py-[6px]'/>
+            <Button icon={PreviousArrowSvg} onClick={handlePreviousCategory} bgColor='#FF6D33' className='h-[36px] w-[46px] px-[15px] py-[6px]  '/>
             <div className={`overflow-x-auto whitespace-nowrap space-x-1 flex items-center hide-scrollbar`} ref={filterButtonContainerRef}>
                 {/* Button that allows choosing every topic */}
                 {/* <Button

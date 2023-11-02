@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       </Head>
       <div className="homepage relative bg-white">
         <HomeBanner/>
-        <div className="max-w-[1190px] flex flex-col mx-auto mt-[60px] mb-10 gap-[60px] px-5">
+        <div className="max-w-[1190px] flex flex-col mx-auto mt-[60px] mb-10 gap-[60px]">
           <ProductSection
             sectionName={"New Arrivals"}
             viewMoreLink={"#"}

@@ -20,7 +20,6 @@ export default function Banner() {
     ];
 
     return (
-        <section className='carousel'>
             <Swiper
                 pagination={{
                     clickable: true, // Allow user to click on the button to change the slide
@@ -46,11 +45,10 @@ export default function Banner() {
                         <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-full h-[24rem] sm:h-[36rem] object-cover"
+                            className="w-full h-[24rem] sm:h-[22rem] object-cover"
                         />
                     </SwiperSlide>
                 ))}
             </Swiper>
-        </section>
   );
 }

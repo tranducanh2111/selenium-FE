@@ -23,10 +23,10 @@ const Footer = () => {
                     </figure>
                     <p>Our mission is to fuel your athletic journey. Our commitment to excellence, outstanding customer service, and competitive pricing make us your one-stop destination for all things sports. Let&apos;s gear up for success together!</p>
                     <span className='icon-container  flex space-x-4'>
-                        <button><a href=""><FacebookLogo /></a></button>
-                        <button><a href=""><TwitterLogo /></a></button>
-                        <button><a href=""><InstagramLogo /></a></button>
-                        <button><a href=""><GitHubLogo /></a></button>
+                        <button className='hover:scale-[1.1] transition duration-200 ease-in-out'><a href=""><FacebookLogo /></a></button>
+                        <button className='hover:scale-[1.1] transition duration-200 ease-in-out'><a href=""><TwitterLogo /></a></button>
+                        <button className='hover:scale-[1.1] transition duration-200 ease-in-out'><a href=""><InstagramLogo /></a></button>
+                        <button className='hover:scale-[1.1] transition duration-200 ease-in-out'><a href=""><GitHubLogo /></a></button>
                     </span>
                 </section>
 

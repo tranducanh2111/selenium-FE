@@ -53,7 +53,7 @@ const Button: React.FC<ButtonProps> = ({
             height={20}
             className={classNameIcon}
           />
-          <span className='ml-1 max-w-content text-base'>{title}</span>
+          <span className='ml-1 text-base'>{title}</span>
         </span>
       )
       :(

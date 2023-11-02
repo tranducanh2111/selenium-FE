@@ -47,7 +47,7 @@ const Menu = () => {
       </button>
       <button
         className={`mb-[16px] hover:text-primary focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
-        <Link href="/collection">
+        <Link href="/store">
           <div className="flex items-center">
             <Image
               src={BookLib}
@@ -63,7 +63,7 @@ const Menu = () => {
 
       <button
         className={`mb-[16px] hover:text-primary focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
-        <Link href="/book">
+        <Link href="/about">
           <div className="flex items-center">
             <Image
               src={BookIcon}
@@ -79,7 +79,7 @@ const Menu = () => {
 
       <button
         className={`mb-[16px] hover:text-primary focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
-        <Link href="/team">
+        <Link href="/contact">
           <div className="flex items-center">
             <Image
               src={TeamIcon}

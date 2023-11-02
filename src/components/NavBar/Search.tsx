@@ -37,8 +37,8 @@ const Search: React.FC = () => {
 
   return (
     <div
-      className={`sm:w-[30%] md:w-full hidden md:flex py-[1px] pl-[16px] flex border-[2px] justify-left items-center flex-1 rounded-md ${
-        isInputFocused ? 'border-primary' : 'border-[#B6B6B6]'
+      className={`sm:w-[30%] md:w-full hidden md:flex py-[1px] pl-[16px] flex border-[2px] justify-left items-center flex-1 rounded-md hover:border-[#FF4800] ${
+        isInputFocused ? 'border-[#FF4800]' : 'border-[#B6B6B6]'
       }`}>
       <div className="icon mr-[16px]">
         <Image
@@ -50,7 +50,7 @@ const Search: React.FC = () => {
       </div>
       <input
         className="w-[100%] h-[34px] border-0 outline-none"
-        placeholder="Search Input"
+        placeholder="Search"
         value={search}
         onChange={e => setSearch(e.target.value)}
         onKeyUp={handleSearchSubmit}

@@ -1,0 +1,938 @@
+[
+    {
+        "name": "Nike Running Shoes",
+        "image": "/nike_Shoes.jpg",
+        "price": 99.99,
+        "description": "High-performance running Shoes by Nike.",
+        "type": "Shoes",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Athletic Shorts",
+        "image": "/puma_shorts.jpg",
+        "price": 29.99,
+        "description": "Comfortable athletic shorts by Puma.",
+        "type": "Clothes",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Baseball Cap",
+        "image": "/adidas_cap.jpg",
+        "price": 19.99,
+        "description": "Classic Adidas baseball cap for sports enthusiasts.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Basketball Shoes",
+        "image": "/nike_basketball.jpg",
+        "price": 129.99,
+        "description": "Premium basketball Shoes by Nike for maximum performance.",
+        "type": "Shoes",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Soccer Jersey",
+        "image": "/puma_jersey.jpg",
+        "price": 49.99,
+        "description": "Official Puma soccer jersey for your favorite team.",
+        "type": "Clothes",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Gym Bag",
+        "image": "/adidas_gym_bag.jpg",
+        "price": 39.99,
+        "description": "Spacious Adidas gym bag to carry all your gear.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Tennis Shoes",
+        "image": "/nike_tennis.jpg",
+        "price": 79.99,
+        "description": "Durable tennis Shoes by Nike for the tennis court.",
+        "type": "Shoes",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Yoga Mat",
+        "image": "/puma_yoga_mat.jpg",
+        "price": 24.99,
+        "description": "Non-slip Puma yoga mat for your daily practice.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Running Jacket",
+        "image": "/adidas_jacket.jpg",
+        "price": 59.99,
+        "description": "Lightweight Adidas running jacket for outdoor activities.",
+        "type": "Clothes",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Soccer Ball",
+        "image": "/nike_soccer_ball.jpg",
+        "price": 19.99,
+        "description": "High-quality Nike soccer ball for your matches.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+    "name": "Nike Volleyball Shoes",
+    "image": "/nike_volleyball.jpg",
+    "price": 89.99,
+    "description": "Specialized volleyball Shoes by Nike for agility on the court.",
+    "type": "Shoes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Running Tights",
+    "image": "/puma_tights.jpg",
+    "price": 34.99,
+    "description": "Comfortable running tights by Puma for your daily runs.",
+    "type": "Clothes",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Sports Watch",
+    "image": "/adidas_watch.jpg",
+    "price": 69.99,
+    "description": "Adidas sports watch with advanced features for athletes.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Cross Training Shoes",
+    "image": "/nike_cross_training.jpg",
+    "price": 74.99,
+    "description": "Versatile cross-training Shoes by Nike for various workouts.",
+    "type": "Shoes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Tennis Skirt",
+    "image": "/puma_skirt.jpg",
+    "price": 29.99,
+    "description": "Stylish tennis skirt by Puma for the court or casual wear.",
+    "type": "Clothes",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Water Bottle",
+    "image": "/adidas_water_bottle.jpg",
+    "price": 14.99,
+    "description": "Leak-proof Adidas water bottle to stay hydrated during workouts.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Golf Shoes",
+    "image": "/nike_golf.jpg",
+    "price": 109.99,
+    "description": "Premium golf Shoes by Nike for the golf course.",
+    "type": "Shoes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Wristband Set",
+    "image": "/puma_wristbands.jpg",
+    "price": 9.99,
+    "description": "Puma wristband set for keeping sweat at bay during workouts.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Running Shorts",
+    "image": "/adidas_running_shorts.jpg",
+    "price": 39.99,
+    "description": "Adidas running shorts designed for maximum comfort.",
+    "type": "Clothes",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Gym Duffle Bag",
+    "image": "/nike_gym_duffle.jpg",
+    "price": 49.99,
+    "description": "Spacious Nike gym duffle bag with multiple compartments.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Basketball",
+    "image": "/puma_basketball.jpg",
+    "price": 24.99,
+    "description": "Durable Puma basketball for indoor and outdoor play.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Soccer Socks",
+    "image": "/adidas_socks.jpg",
+    "price": 12.99,
+    "description": "Comfortable Adidas soccer socks for on-field performance.",
+    "type": "Clothes",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Track Jacket",
+    "image": "/nike_track_jacket.jpg",
+    "price": 59.99,
+    "description": "Stylish Nike track jacket for sports and casual wear.",
+    "type": "Clothes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Backpack",
+    "image": "/puma_backpack.jpg",
+    "price": 34.99,
+    "description": "Puma backpack with ample storage space for all your gear.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Weightlifting Gloves",
+    "image": "/adidas_gloves.jpg",
+    "price": 19.99,
+    "description": "Adidas weightlifting gloves with a secure grip.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Tennis Racket",
+    "image": "/nike_tennis_racket.jpg",
+    "price": 89.99,
+    "description": "High-quality Nike tennis racket for precise shots.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Ski Jacket",
+    "image": "/puma_ski_jacket.jpg",
+    "price": 79.99,
+    "description": "Warm and waterproof Puma ski jacket for winter sports.",
+    "type": "Clothes",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Resistance Bands",
+    "image": "/adidas_resistance_bands.jpg",
+    "price": 14.99,
+    "description": "Adidas resistance bands for strength and flexibility training.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Basketball Hoop",
+    "image": "/nike_basketball_hoop.jpg",
+    "price": 199.99,
+    "description": "Portable Nike basketball hoop for your driveway games.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Yoga Blocks",
+    "image": "/puma_yoga_blocks.jpg",
+    "price": 9.99,
+    "description": "Puma yoga blocks to support your yoga poses.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Track Pants",
+    "image": "/adidas_track_pants.jpg",
+    "price": 44.99,
+    "description": "Adidas track pants for a sporty and casual look.",
+    "type": "Clothes",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Skateboard",
+    "image": "/nike_skateboard.jpg",
+    "price": 59.99,
+    "description": "Durable Nike skateboard for skating enthusiasts.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Cycling Helmet",
+    "image": "/puma_cycling_helmet.jpg",
+    "price": 39.99,
+    "description": "Puma cycling helmet for safety on the road.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Track Spikes",
+    "image": "/adidas_track_spikes.jpg",
+    "price": 29.99,
+    "description": "Adidas track spikes for sprinters and jumpers.",
+    "type": "Shoes",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Resistance Bands",
+    "image": "/nike_resistance_bands.jpg",
+    "price": 14.99,
+    "description": "Nike resistance bands for strength and flexibility training.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Golf Balls",
+    "image": "/puma_golf_balls.jpg",
+    "price": 19.99,
+    "description": "Puma golf balls for your golfing needs.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Basketball Shorts",
+    "image": "/adidas_basketball_shorts.jpg",
+    "price": 34.99,
+    "description": "Adidas basketball shorts for on-court comfort.",
+    "type": "Clothes",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Hiking Boots",
+    "image": "/nike_hiking_boots.jpg",
+    "price": 79.99,
+    "description": "Sturdy Nike hiking boots for outdoor adventures.",
+    "type": "Shoes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Ski Goggles",
+    "image": "/puma_ski_goggles.jpg",
+    "price": 29.99,
+    "description": "Puma ski goggles for clear vision on the slopes.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Nike Soccer Cleats",
+    "image": "/nike_soccer_cleats.jpg",
+    "price": 79.99,
+    "description": "Nike soccer cleats for exceptional ball control.",
+    "type": "Shoes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Basketball Jersey",
+    "image": "/puma_basketball_jersey.jpg",
+    "price": 39.99,
+    "description": "Puma basketball jersey for style on the court.",
+    "type": "Clothes",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Arm Sleeves",
+    "image": "/adidas_arm_sleeves.jpg",
+    "price": 14.99,
+    "description": "Adidas arm sleeves for added support during workouts.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Trail Running Shoes",
+    "image": "/nike_trail_running.jpg",
+    "price": 89.99,
+    "description": "Nike trail running Shoes for off-road adventures.",
+    "type": "Shoes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Tennis Headband",
+    "image": "/puma_headband.jpg",
+    "price": 7.99,
+    "description": "Puma tennis headband to keep sweat away from your face.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Weighted Jump Rope",
+    "image": "/adidas_jump_rope.jpg",
+    "price": 12.99,
+    "description": "Adidas weighted jump rope for cardio and strength training.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Golf Club Set",
+    "image": "/nike_golf_clubs.jpg",
+    "price": 249.99,
+    "description": "Complete set of Nike golf clubs for golf enthusiasts.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Track Spikes",
+    "image": "/puma_track_spikes.jpg",
+    "price": 29.99,
+    "description": "Puma track spikes for sprinters and jumpers.",
+    "type": "Shoes",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Volleyball Knee Pads",
+    "image": "/adidas_knee_pads.jpg",
+    "price": 19.99,
+    "description": "Adidas volleyball knee pads for protection during matches.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Swimming Goggles",
+    "image": "/nike_swimming_goggles.jpg",
+    "price": 19.99,
+    "description": "Nike swimming goggles for clear underwater vision.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Soccer Goalkeeper Gloves",
+    "image": "/puma_goalkeeper_gloves.jpg",
+    "price": 34.99,
+    "description": "Puma goalkeeper gloves for soccer enthusiasts.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Cycling Shorts",
+    "image": "/adidas_cycling_shorts.jpg",
+    "price": 24.99,
+    "description": "Adidas cycling shorts for comfortable rides.",
+    "type": "Clothes",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Yoga Mat",
+    "image": "/nike_yoga_mat.jpg",
+    "price": 24.99,
+    "description": "Durable Nike yoga mat for your yoga practice.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Baseball Bat",
+    "image": "/puma_baseball_bat.jpg",
+    "price": 39.99,
+    "description": "Puma baseball bat for your baseball games.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Tennis Balls",
+    "image": "/adidas_tennis_balls.jpg",
+    "price": 14.99,
+    "description": "Adidas tennis balls for your tennis matches.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Weightlifting Belt",
+    "image": "/nike_weightlifting_belt.jpg",
+    "price": 29.99,
+    "description": "Nike weightlifting belt for added support during lifts.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Ski Poles",
+    "image": "/puma_ski_poles.jpg",
+    "price": 49.99,
+    "description": "Puma ski poles for improved balance on the slopes.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Snowboard",
+    "image": "/adidas_snowboard.jpg",
+    "price": 159.99,
+    "description": "Adidas snowboard for snow sports enthusiasts.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Running Socks",
+    "image": "/nike_running_socks.jpg",
+    "price": 9.99,
+    "description": "Comfortable Nike running socks for your runs.",
+    "type": "Clothes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Weight Bench",
+    "image": "/puma_weight_bench.jpg",
+    "price": 79.99,
+    "description": "Puma weight bench for strength training workouts.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Skateboard Deck",
+    "image": "/adidas_skateboard_deck.jpg",
+    "price": 39.99,
+    "description": "Adidas skateboard deck for custom skateboard setups.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Golf Gloves",
+    "image": "/nike_golf_gloves.jpg",
+    "price": 14.99,
+    "description": "Nike golf gloves for a secure grip on the golf course.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Running Hat",
+    "image": "/puma_running_hat.jpg",
+    "price": 12.99,
+    "description": "Puma running hat for sun protection during your runs.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Tennis Racquet Bag",
+    "image": "/adidas_racquet_bag.jpg",
+    "price": 29.99,
+    "description": "Adidas tennis racquet bag to carry your equipment.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Track and Field Spikes",
+    "image": "/nike_track_field_spikes.jpg",
+    "price": 34.99,
+    "description": "Nike track and field spikes for sprinters and jumpers.",
+    "type": "Shoes",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Ski Jacket",
+    "image": "/puma_ski_jacket.jpg",
+    "price": 79.99,
+    "description": "Warm and waterproof Puma ski jacket for winter sports.",
+    "type": "Clothes",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Snow Goggles",
+    "image": "/adidas_snow_goggles.jpg",
+    "price": 29.99,
+    "description": "Adidas snow goggles for clear vision on the slopes.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Volleyball Net",
+    "image": "/nike_volleyball_net.jpg",
+    "price": 49.99,
+    "description": "Durable Nike volleyball net for competitive games.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Hiking Backpack",
+    "image": "/puma_hiking_backpack.jpg",
+    "price": 39.99,
+    "description": "Puma hiking backpack for outdoor adventures.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Climbing Shoes",
+    "image": "/adidas_climbing_Shoes.jpg",
+    "price": 69.99,
+    "description": "Adidas climbing Shoes for rock climbing enthusiasts.",
+    "type": "Shoes",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Yoga Blocks",
+    "image": "/nike_yoga_blocks.jpg",
+    "price": 12.99,
+    "description": "Nike yoga blocks to support your yoga poses.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Golf Tees",
+    "image": "/puma_golf_tees.jpg",
+    "price": 4.99,
+    "description": "Puma golf tees for your golfing needs.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Cycling Shoes",
+    "image": "/adidas_cycling_Shoes.jpg",
+    "price": 59.99,
+    "description": "Adidas cycling Shoes for comfortable rides.",
+    "type": "Shoes",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Swimming Cap",
+    "image": "/nike_swimming_cap.jpg",
+    "price": 7.99,
+    "description": "Nike swimming cap for streamlined swimming.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Basketball Hoop",
+    "image": "/puma_basketball_hoop.jpg",
+    "price": 199.99,
+    "description": "Portable Puma basketball hoop for your driveway games.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Tennis Racket",
+    "image": "/adidas_tennis_racket.jpg",
+    "price": 89.99,
+    "description": "High-quality Adidas tennis racket for precise shots.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+    "name": "Nike Snowboard",
+    "image": "/nike_snowboard.jpg",
+    "price": 169.99,
+    "description": "Nike snowboard for snow sports enthusiasts.",
+    "type": "Accessories",
+    "brand": "Nike"
+    },
+    {
+    "name": "Puma Golf Bag",
+    "image": "/puma_golf_bag.jpg",
+    "price": 79.99,
+    "description": "Puma golf bag to carry your clubs and Accessories.",
+    "type": "Accessories",
+    "brand": "Puma"
+    },
+    {
+    "name": "Adidas Beach Volleyball",
+    "image": "/adidas_beach_volleyball.jpg",
+    "price": 29.99,
+    "description": "Adidas beach volleyball for fun in the sun.",
+    "type": "Accessories",
+    "brand": "Adidas"
+    },
+    {
+        "name": "Nike Soccer Cleats",
+        "image": "/nike_soccer_cleats.jpg",
+        "price": 79.99,
+        "description": "Nike soccer cleats for exceptional ball control.",
+        "type": "Shoes",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Basketball Jersey",
+        "image": "/puma_basketball_jersey.jpg",
+        "price": 39.99,
+        "description": "Puma basketball jersey for style on the court.",
+        "type": "Clothes",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Arm Sleeves",
+        "image": "/adidas_arm_sleeves.jpg",
+        "price": 14.99,
+        "description": "Adidas arm sleeves for added support during workouts.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Trail Running Shoes",
+        "image": "/nike_trail_running.jpg",
+        "price": 89.99,
+        "description": "Nike trail running Shoes for off-road adventures.",
+        "type": "Shoes",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Tennis Headband",
+        "image": "/puma_headband.jpg",
+        "price": 7.99,
+        "description": "Puma tennis headband to keep sweat away from your face.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Weighted Jump Rope",
+        "image": "/adidas_jump_rope.jpg",
+        "price": 12.99,
+        "description": "Adidas weighted jump rope for cardio and strength training.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Golf Club Set",
+        "image": "/nike_golf_clubs.jpg",
+        "price": 249.99,
+        "description": "Complete set of Nike golf clubs for golf enthusiasts.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Track Spikes",
+        "image": "/puma_track_spikes.jpg",
+        "price": 29.99,
+        "description": "Puma track spikes for sprinters and jumpers.",
+        "type": "Shoes",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Volleyball Knee Pads",
+        "image": "/adidas_knee_pads.jpg",
+        "price": 19.99,
+        "description": "Adidas volleyball knee pads for protection during matches.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Swimming Goggles",
+        "image": "/nike_swimming_goggles.jpg",
+        "price": 19.99,
+        "description": "Nike swimming goggles for clear underwater vision.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Soccer Goalkeeper Gloves",
+        "image": "/puma_goalkeeper_gloves.jpg",
+        "price": 34.99,
+        "description": "Puma goalkeeper gloves for soccer enthusiasts.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Cycling Shorts",
+        "image": "/adidas_cycling_shorts.jpg",
+        "price": 24.99,
+        "description": "Adidas cycling shorts for comfortable rides.",
+        "type": "Clothes",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Yoga Mat",
+        "image": "/nike_yoga_mat.jpg",
+        "price": 24.99,
+        "description": "Durable Nike yoga mat for your yoga practice.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Baseball Bat",
+        "image": "/puma_baseball_bat.jpg",
+        "price": 39.99,
+        "description": "Puma baseball bat for your baseball games.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Tennis Balls",
+        "image": "/adidas_tennis_balls.jpg",
+        "price": 14.99,
+        "description": "Adidas tennis balls for your tennis matches.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Weightlifting Belt",
+        "image": "/nike_weightlifting_belt.jpg",
+        "price": 29.99,
+        "description": "Nike weightlifting belt for added support during lifts.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Ski Poles",
+        "image": "/puma_ski_poles.jpg",
+        "price": 49.99,
+        "description": "Puma ski poles for improved balance on the slopes.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Snowboard",
+        "image": "/adidas_snowboard.jpg",
+        "price": 159.99,
+        "description": "Adidas snowboard for snow sports enthusiasts.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Running Socks",
+        "image": "/nike_running_socks.jpg",
+        "price": 9.99,
+        "description": "Comfortable Nike running socks for your runs.",
+        "type": "Clothes",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Weight Bench",
+        "image": "/puma_weight_bench.jpg",
+        "price": 79.99,
+        "description": "Puma weight bench for strength training workouts.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Skateboard Deck",
+        "image": "/adidas_skateboard_deck.jpg",
+        "price": 39.99,
+        "description": "Adidas skateboard deck for custom skateboard setups.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Golf Gloves",
+        "image": "/nike_golf_gloves.jpg",
+        "price": 14.99,
+        "description": "Nike golf gloves for a secure grip on the golf course.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Running Hat",
+        "image": "/puma_running_hat.jpg",
+        "price": 12.99,
+        "description": "Puma running hat for sun protection during your runs.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Tennis Racquet Bag",
+        "image": "/adidas_racquet_bag.jpg",
+        "price": 29.99,
+        "description": "Adidas tennis racquet bag to carry your equipment.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Track and Field Spikes",
+        "image": "/nike_track_field_spikes.jpg",
+        "price": 34.99,
+        "description": "Nike track and field spikes for sprinters and jumpers.",
+        "type": "Shoes",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Ski Jacket",
+        "image": "/puma_ski_jacket.jpg",
+        "price": 79.99,
+        "description": "Warm and waterproof Puma ski jacket for winter sports.",
+        "type": "Clothes",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Snow Goggles",
+        "image": "/adidas_snow_goggles.jpg",
+        "price": 29.99,
+        "description": "Adidas snow goggles for clear vision on the slopes.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Volleyball Net",
+        "image": "/nike_volleyball_net.jpg",
+        "price": 49.99,
+        "description": "Durable Nike volleyball net for competitive games.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Hiking Backpack",
+        "image": "/puma_hiking_backpack.jpg",
+        "price": 39.99,
+        "description": "Puma hiking backpack for outdoor adventures.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Climbing Shoes",
+        "image": "/adidas_climbing_Shoes.jpg",
+        "price": 69.99,
+        "description": "Adidas climbing Shoes for rock climbing enthusiasts.",
+        "type": "Shoes",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Yoga Blocks",
+        "image": "/nike_yoga_blocks.jpg",
+        "price": 12.99,
+        "description": "Nike yoga blocks to support your yoga poses.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Golf Tees",
+        "image": "/puma_golf_tees.jpg",
+        "price": 4.99,
+        "description": "Puma golf tees for your golfing needs.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Cycling Shoes",
+        "image": "/adidas_cycling_Shoes.jpg",
+        "price": 59.99,
+        "description": "Adidas cycling Shoes for comfortable rides.",
+        "type": "Shoes",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Swimming Cap",
+        "image": "/nike_swimming_cap.jpg",
+        "price": 7.99,
+        "description": "Nike swimming cap for streamlined swimming.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Basketball Hoop",
+        "image": "/puma_basketball_hoop.jpg",
+        "price": 199.99,
+        "description": "Portable Puma basketball hoop for your driveway games.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Tennis Racket",
+        "image": "/adidas_tennis_racket.jpg",
+        "price": 89.99,
+        "description": "High-quality Adidas tennis racket for precise shots.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    },
+    {
+        "name": "Nike Snowboard",
+        "image": "/nike_snowboard.jpg",
+        "price": 169.99,
+        "description": "Nike snowboard for snow sports enthusiasts.",
+        "type": "Accessories",
+        "brand": "Nike"
+    },
+    {
+        "name": "Puma Golf Bag",
+        "image": "/puma_golf_bag.jpg",
+        "price": 79.99,
+        "description": "Puma golf bag to carry your clubs and Accessories.",
+        "type": "Accessories",
+        "brand": "Puma"
+    },
+    {
+        "name": "Adidas Beach Volleyball",
+        "image": "/adidas_beach_volleyball.jpg",
+        "price": 29.99,
+        "description": "Adidas beach volleyball for fun in the sun.",
+        "type": "Accessories",
+        "brand": "Adidas"
+    }
+]

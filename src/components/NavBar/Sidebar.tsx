@@ -59,49 +59,73 @@ const SidebarModal = ({
             onClick={openSidebar}>
             <Image src={SideLogo} alt="Logo" width={20} height={20} />
           </div>
-          <Link href="/">
-            <div className="menu_bar mb-[36px]">
-              <Image
-                src={HomeIcon}
-                alt="Logo"
-                width={20}
-                height={20}
-                className="w-6 h-6"
-              />
-            </div>
+          <Link href="/" passHref legacyBehavior>
+            <a
+              onClick={e => {
+                e.preventDefault()
+                window.location.href = '/'
+              }}>
+              <div className="menu_bar mb-[36px]">
+                <Image
+                  src={HomeIcon}
+                  alt="Logo"
+                  width={20}
+                  height={20}
+                  className="w-6 h-6"
+                />
+              </div>
+            </a>
           </Link>
-          <Link href="/collection">
-            <div className="menu_bar mb-[36px]">
-              <Image
-                src={BookLib}
-                alt="Logo"
-                width={24}
-                height={24}
-                className="w-6 h-6"
-              />
-            </div>
+          <Link href="/store" passHref legacyBehavior>
+            <a
+              onClick={e => {
+                e.preventDefault()
+                window.location.href = '/store'
+              }}>
+              <div className="menu_bar mb-[36px]">
+                <Image
+                  src={BookLib}
+                  alt="Logo"
+                  width={24}
+                  height={24}
+                  className="w-6 h-6"
+                />
+              </div>
+            </a>
           </Link>
-          <Link href="/book">
-            <div className="menu_bar mb-[36px]">
-              <Image
-                src={BookIcon}
-                alt="Logo"
-                width={20}
-                height={20}
-                className="w-6 h-6"
-              />
-            </div>
+          <Link href="/about" passHref legacyBehavior>
+            <a
+              onClick={e => {
+                e.preventDefault()
+                window.location.href = '/book'
+              }}>
+              <div className="menu_bar mb-[36px]">
+                <Image
+                  src={BookIcon}
+                  alt="Logo"
+                  width={20}
+                  height={20}
+                  className="w-6 h-6"
+                />
+              </div>
+            </a>
           </Link>
-          <Link href="/team">
-            <div className="menu_bar mb-[36px]">
-              <Image
-                src={TeamIcon}
-                alt="Logo"
-                width={20}
-                height={20}
-                className="w-6 h-6"
-              />
-            </div>
+          <Link href="/contact" passHref legacyBehavior>
+            <a
+              onClick={e => {
+                e.preventDefault()
+                window.location.href = '/team'
+              }}>
+              <div className="menu_bar mb-[36px]">
+                <Image
+                  src={TeamIcon}
+                  alt="Logo"
+                  width={20}
+                  height={20}
+                  className="w-6 h-6"
+                />
+              </div>
+            </a>
           </Link>
         </div>
       </div>

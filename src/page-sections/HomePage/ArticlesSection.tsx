@@ -1,7 +1,9 @@
 import { ArticleProps } from '@/components/Article/Article'
 import ArticleList from '@/components/Article/ArticleList'
 import ArrowRight from 'public/arrow-right.svg'
-import TestImg from 'public/Test.png'
+import TestImg1 from 'public/nike_cross_training.jpg'
+import TestImg2 from 'public/adidas_basketball_shorts.jpg'
+import TestImg3 from 'public/nike_snowboard.jpg'
 import React from 'react'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -17,19 +19,19 @@ import HeadingSection from '@/components/SectionHeader'
 const ArticlesSection: React.FC = () => {
   const tests: ArticleProps[] = [
     {
-      imgSrc: TestImg,
+      imgSrc: TestImg1,
       description:
         'Nike x Jordan 2024 Spring Collection',
       url: 'https://www.google.com/',
     },
     {
-      imgSrc: TestImg,
+      imgSrc: TestImg2,
       description:
         'Champion x Adidas x Levi 2024 Spring Collection',
       url: 'https://www.google.com/',
     },
     {
-      imgSrc: TestImg,
+      imgSrc: TestImg3,
       description:
         'Releasing dates of Nike x J. Balvin All-Star Collection 2024',
       url: 'https://www.google.com/',
@@ -37,7 +39,7 @@ const ArticlesSection: React.FC = () => {
   ]
 
   return (
-    <div className="max-w-[1190px] sm:px-[40px]">
+    <div className="max-w-[1190px] px-[20px] sm:px-[40px]">
       <div className="introduction">
         <HeadingSection
           headingText={"What's next?"}
