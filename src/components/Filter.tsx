@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 
-const Filter: React.FC<{ isFilterOpen: boolean, closeFilter: () => void, onFilter: (filters: any) => void }/* eslint-disable no-unused-vars */> = ({
+const Filter: React.FC<{ isFilterOpen: boolean, closeFilter: () => void, onFilter: (filters: any) => void }> = ({
   isFilterOpen,
   closeFilter,
-  // eslint-disable-next-line no-unused-vars
   onFilter
 }) => {
   // Define local state for filters
