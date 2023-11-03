@@ -32,7 +32,7 @@ const FilteredListPanel = ({sectionName, description, viewMoreLink, showFilter} 
 
 	const totalPages = Math.ceil(filteredData.length / itemsPerPage);
 
-	// Handle page change
+	// Handle page change		
     const handlePageChange = (page: number) => {
         setCurrentPage(page);
     };

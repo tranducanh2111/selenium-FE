@@ -39,7 +39,7 @@ const ArticlesSection: React.FC = () => {
   ]
 
   return (
-    <div className="max-w-[1190px] px-[20px] sm:px-[40px]">
+    <div className="mx-auto max-w-[1190px] px-[20px] sm:px-[40px]">
       <div className="introduction">
         <HeadingSection
           headingText={"What's next?"}

@@ -19,7 +19,7 @@ const Layout: React.FC<{
     <>
       <div className="flex justify-start overflow-x-hidden bg-black">
         {/* Sidebar */}
-        <div className="sm:block">
+        <div className="sm:block bg-white">
           <SidebarModal
             isOpen={isOpen}
             openSidebar={openSidebar}

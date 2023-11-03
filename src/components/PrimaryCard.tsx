@@ -9,7 +9,7 @@ type CardProps = {
     imageURL: string;
     name: string;
     descriptions: string;
-    testURL: string;
+    testURL?: string;
     price?: number;
     category?: string;
 };
