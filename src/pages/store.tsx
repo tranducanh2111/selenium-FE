@@ -15,9 +15,7 @@ const StorePage: React.FC = () => {
                 <h1>Get Fashion</h1>
                 <img src="banner3.jpg" className="dog hidden sm:block" alt="Pet Dog"/>
                 <div className="content">
-                    <p>
-                        Shop the new fall collection of Selenium appareal. The latest trends, and the best eco-friendly quality.
-                    </p>
+                    <p>Shop the new fall collection of Selenium appareal. The latest trends, and the best eco-friendly quality.</p>
                     <a href="#">
                         <span className='hover:text-[#F4A261] w-[133px]'>Shop Now</span>
                         <svg width="85" height="8" viewBox="0 0 258 8" fill="#FF6D33" xmlns="http://www.w3.org/2000/svg">
@@ -90,7 +88,6 @@ const StorePage: React.FC = () => {
           margin-bottom: 5em;
           padding: 2em;
           position: relative;
-          z-index: 99;
       }
 
       h1 {

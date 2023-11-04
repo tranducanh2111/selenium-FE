@@ -45,7 +45,7 @@ export default function Banner() {
                         <img
                             src={image}
                             alt={`Slide ${index + 1}`}
-                            className="w-full h-[24rem] sm:h-[22rem] object-cover"
+                            className="w-full object-cover aspect-[1200/420]"
                         />
                     </SwiperSlide>
                 ))}
