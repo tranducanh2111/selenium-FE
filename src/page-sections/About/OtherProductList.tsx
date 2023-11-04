@@ -13,8 +13,8 @@ const OtherProductList = () => {
       <div className='bg-[#FF6D33] py-[32px] px-[24px] rounded-[12px] mx-[20px] xl:mx-0'>
           <div className="introduction flex flex-col sm:flex-row items-center w-[100%]">
             <Heading
-              title="Courses"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+              title="Product"
+              description="Stay ahead of the curve with our newest products, innovations, and must-haves. From cutting-edge tech to timeless classics, find what's trending and elevate your lifestyle with our latest offerings."
               titleClassName="text-h2 font-bold"
               descriptionClassName="my-[8px]"
               className="w-[100%] sm:max-w-[432px] text-white"

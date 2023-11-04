@@ -22,16 +22,6 @@ const ProductList: React.FC = () => {
         setFilterOpen(false);
     };
 
-    // Function to handle the scroll event and load more items when the user reaches the bottom
-    const handleScroll = () => {
-        if (
-        window.innerHeight + window.scrollY >= document.body.offsetHeight - 100 &&
-        visibleItems < productList.length
-        ) {
-        setVisibleItems((prevVisibleItems) => prevVisibleItems + itemsPerPage);
-        }
-    };
-
     // Attach the scroll event listener when the component mounts
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -95,6 +85,16 @@ const ProductList: React.FC = () => {
         sortProducts(filteredProducts, newSortBy); // Sort the filtered products
       };
 
+          // Function to handle the scroll event and load more items when the user reaches the bottom
+        const handleScroll = () => {
+            if (
+                window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 100 &&
+                visibleItems < filteredProducts.length
+            ) {
+                setVisibleItems((prevVisibleItems) => Math.min(prevVisibleItems + itemsPerPage, filteredProducts.length));
+            }
+        };
+
     return (
     <>
         <div className='relative max-w-[1160px] mx-auto space-y-[24px]'>
@@ -102,7 +102,10 @@ const ProductList: React.FC = () => {
                 <div className="w-full grid grid-cols-[auto,288px] gap-[4px] px-[20px]">
                     <div>
                         <div className="text-h2 font-bold text-[#000000]">Product</div>
-                        <p>{filteredProducts.length} products available.</p>
+                        <p>{ filteredProducts.length > 0 ? 
+                            `We found ${filteredProducts.length} products available.`
+                            : `No product matched your current desire.`
+                        }</p>
                     </div>  
                     <div className='flex items-center'>
                         <label>Sort By:</label>

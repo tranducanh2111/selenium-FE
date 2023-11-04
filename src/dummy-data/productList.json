@@ -1,7 +1,7 @@
 [
     {
         "name": "Nike Running Shoes",
-        "image": "/nike_Shoes.jpg",
+        "image": "/nike_shoes.jpg",
         "price": 99.99,
         "description": "High-performance running Shoes by Nike.",
         "type": "Shoes",

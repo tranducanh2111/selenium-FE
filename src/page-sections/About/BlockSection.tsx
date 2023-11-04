@@ -5,49 +5,48 @@ import img3 from 'public/test3.png'
 import Button from '@/components/Buttons/Button'
 import SectionHeader from '@/components/SectionHeader'
 import { BlockItem } from '@/components/BlockItem'
-import ArrowRight from 'public/arrow-right.svg'
 
 const BlockSection = () => {
   const blocks = [
     {
       img: img1,
       recColor: 'bg-[#E76F51]',
-      name: 'Nguyen Van A',
+      name: 'Serena Silvana',
       text: {
         line1:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          'Founder',
         line2:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          'Established Selenium, responsible for our overall strategy, direction, and initial development.',
         line3:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          '"The only way to do great work is to love what you do."',
       },
       order: 'odd',
     },
     {
       img: img2,
       recColor: 'bg-[#2A9D8F]',
-      name: 'Nguyen Van A',
+      name: 'Aaron Tran',
       text: {
         line1:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          'Role: Chief Technology Officer',
         line2:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          "Technology expert and strategist, implement technology solutions and ensuring they align with the Selenium goals.",
         line3:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          '"Success is not final, failure is not fatal: It is the courage to continue that counts."',
       },
       order: 'even',
     },
     {
       img: img3,
       recColor: 'bg-[#E9C46A]',
-      name: 'Nguyen Van A',
+      name: 'Selene Pham',
       text: {
         line1:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          'Role: Head of Design',
         line2:
           'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
         line3:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          '"Logic will get you from A to B. Imagination will take you everywhere."',
       },
       order: 'odd',
     },
@@ -58,7 +57,7 @@ const BlockSection = () => {
       <div className="max-w-[1070px] mx-auto flex flex-col xs:flex-row items-center justify-between">
         <SectionHeader 
             headingText={'Introducing Selenium crew!'}
-            paragraphText={''}
+            paragraphText={"Selenium was founded by a group of sports enthusiasts who share a deep passion for athletics. We are dedicated to fostering a community of like-minded individuals who are committed to leading active and healthy lifestyles. Our team believes in the power of sports to bring people together and inspire them to be their best."}
             viewMoreLink={'/'}
             showFilterBar={false}
         />

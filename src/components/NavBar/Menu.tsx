@@ -16,8 +16,9 @@ const Menu = () => {
   }
 
   const mockSubmenu = [
-    { name: 'IELTS Exam', isHovered: false },
-    { name: 'TOEIC Exam', isHovered: false },
+    { name: 'Shoes', isHovered: false },
+    { name: 'Clothes', isHovered: false },
+    { name: 'Accessories', isHovered: false },
   ]
 
   const handleHoverOn = (index: number) => {
@@ -29,9 +30,9 @@ const Menu = () => {
   }
 
   return (
-    <div className="w-full mt-2">
+    <div className="w-full mt-2 relative">
       <button
-        className={`mb-[16px] hover:text-primary focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
+        className={`mb-[16px] hover:text-[#FF6D33] focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
         <Link href="/">
           <div className="flex items-center">
             <Image
@@ -46,7 +47,7 @@ const Menu = () => {
         </Link>
       </button>
       <button
-        className={`mb-[16px] hover:text-primary focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
+        className={`hover:text-[#FF6D33] focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
         <Link href="/store">
           <div className="flex items-center">
             <Image
@@ -61,41 +62,9 @@ const Menu = () => {
         </Link>
       </button>
 
-      <button
-        className={`mb-[16px] hover:text-primary focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
-        <Link href="/about">
-          <div className="flex items-center">
-            <Image
-              src={BookIcon}
-              alt="Home"
-              width={20}
-              height={20}
-              className="w-6 h-6"
-            />
-            <p className="ml-2">About Us</p>
-          </div>
-        </Link>
-      </button>
-
-      <button
-        className={`mb-[16px] hover:text-primary focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
-        <Link href="/contact">
-          <div className="flex items-center">
-            <Image
-              src={TeamIcon}
-              alt="Home"
-              width={18}
-              height={18}
-              className="w-6 h-6"
-            />
-            <p className="ml-2">Contact</p>
-          </div>
-        </Link>
-      </button>
-
       <div
-        className={`overflow-hidden w-full transition-all duration-300 ${
-          subMenuOpen ? 'h-auto' : 'h-0'
+        className={`overflow-hidden w-full transition-all duration-300 mb-[16px] ${
+          subMenuOpen ? 'h-0' : 'h-auto'
         }`}>
         <ul className="bg-white shadow-lg rounded">
           {mockSubmenu.map((item, index) => (
@@ -103,10 +72,10 @@ const Menu = () => {
               <a
                 className={`flex px-4 pl-8 py-2 ${
                   item.isHovered
-                    ? 'bg-primary text-white'
-                    : 'hover:bg-primary hover:text-white'
+                    ? 'bg-[#FF6D33] text-white'
+                    : 'hover:bg-[#FF6D33] hover:text-white'
                 }`}
-                href="collection"
+                href="product"
                 onClick={() => toggleSubMenu()}
                 onMouseEnter={() => handleHoverOn(index)}
                 onMouseLeave={() => handleHoverOff()}>
@@ -123,6 +92,38 @@ const Menu = () => {
           ))}
         </ul>
       </div>
+      
+      <button
+        className={`mb-[16px] hover:text-[#FF6D33] focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
+        <Link href="/about">
+          <div className="flex items-center">
+            <Image
+              src={BookIcon}
+              alt="Home"
+              width={20}
+              height={20}
+              className="w-6 h-6"
+            />
+            <p className="ml-2">About Us</p>
+          </div>
+        </Link>
+      </button>
+
+      <button
+        className={`mb-[16px] hover:text-[#FF6D33] focus:outline-none flex items-center w-full text-left py-2 px-4 justify-between`}>
+        <Link href="/contact">
+          <div className="flex items-center">
+            <Image
+              src={TeamIcon}
+              alt="Home"
+              width={18}
+              height={18}
+              className="w-6 h-6"
+            />
+            <p className="ml-2">Contact</p>
+          </div>
+        </Link>
+      </button>
     </div>
   )
 }

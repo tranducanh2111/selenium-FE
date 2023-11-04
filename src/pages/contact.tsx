@@ -55,12 +55,12 @@ const ContactPage: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>Selenium Product</title>
+        <title>Contact Us</title>
       </Head>
       <div className="bg-white space-y-[60px] pt-[40px] pb-[60px]">
       <div className="max-w-[1160px] flex lg:flex-row pb-[40px] flex-col justify-evenly gap-10 sm:mx-auto mx-5">
         <Heading
-          title="Meet our team!"
+          title="Keep in touch with us!"
           description={`We love to hear from you! Whether you have a question, need assistance, or just want to say hello, we're here to help. If you prefer in-person assistance, visit our physical store. Our friendly staff will be delighted to help you find what you need.`}
           titleClassName="text-h2 font-bold pb-[10px]"
           className=""

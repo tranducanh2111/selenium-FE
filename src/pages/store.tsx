@@ -8,54 +8,49 @@ const StorePage: React.FC = () => {
       <Head>
         <title>Selenium Product</title>
       </Head>
-      <div className="wrapper hidden md:block">
-        <section>
-            <img src="banner1.jpg" className="tiger" alt="Pet Tiger"/>
-            <h1>Get Fashion</h1>
-            <img src="banner3.jpg" className="dog" alt="Pet Dog"/>
-            <div className="content">
-                <p>
-                    Shop the new fall collection of Selenium appareal. The hottest trends, 
-                    the latest vibes, and the best eco-friendly quality.
-                </p>
-                <a href="#">
-                    <span>Shop Now</span>
-                    <svg width="228" height="8" viewBox="0 0 258 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M257.354 4.35355C257.549 4.15829 257.549 3.84171 257.354 3.64645L254.172 0.464466C253.976 0.269204 253.66 0.269204 253.464 0.464466C253.269 0.659728 253.269 0.976311 253.464 1.17157L256.293 4L253.464 6.82843C253.269 7.02369 253.269 7.34027 253.464 7.53553C253.66 7.7308 253.976 7.7308 254.172 7.53553L257.354 4.35355ZM0 4.5H257V3.5H0V4.5Z" fill="black"/>
-                    </svg>
-                </a>
-            </div>
-            <img src="banner4.jpg" className="fish" alt="Pet Fish"/>
-        </section>
+      <div className='bg-white'>
+        <div className="wrapper sm:min-width-[690px] sm:max-width-[1100px] w-full sm:w-[65%] my-0 mx-auto">
+            <section className='sm:mt-[100px] space-y-[16px] sm:space-y-0'>
+                <img src="banner1.jpg" className="tiger hidden sm:block" alt="Pet Tiger"/>
+                <h1>Get Fashion</h1>
+                <img src="banner3.jpg" className="dog hidden sm:block" alt="Pet Dog"/>
+                <div className="content">
+                    <p>
+                        Shop the new fall collection of Selenium appareal. The latest trends, and the best eco-friendly quality.
+                    </p>
+                    <a href="#">
+                        <span className='hover:text-[#F4A261] w-[133px]'>Shop Now</span>
+                        <svg width="85" height="8" viewBox="0 0 258 8" fill="#FF6D33" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M257.354 4.35355C257.549 4.15829 257.549 3.84171 257.354 3.64645L254.172 0.464466C253.976 0.269204 253.66 0.269204 253.464 0.464466C253.269 0.659728 253.269 0.976311 253.464 1.17157L256.293 4L253.464 6.82843C253.269 7.02369 253.269 7.34027 253.464 7.53553C253.66 7.7308 253.976 7.7308 254.172 7.53553L257.354 4.35355ZM0 4.5H257V3.5H0V4.5Z" fill="#FF6D33"/>
+                        </svg>
+                    </a>
+                </div>
+                <img src="banner4.jpg" className="fish hidden sm:block" alt="Pet Fish"/>
+            </section>
     </div>
       <div className="sm:pt-[60px] relative bg-white ">
         <ProductList/>
       </div>
-
+    </div>
       <style jsx>
-      {`      
-      .wrapper {
-          width: 65%;
-          margin: 0 auto;
-      }
+      {`
+    @media (min-width: 768px) {
+        section:before {
+            color: #ff9f7a;
+            position: absolute;
+            content: 'SEL';
+            font-weight: 800;
+            z-index: -99;
+            font-size: 16rem;
+            top: -200px;
+            left: -300px;
+        }
 
-      section:before {
-        color: #FFE8DF;
-        position: absolute;
-        content: 'SEL';
-        font-weight: 800;
-        z-index: -99;
-        font-size: 16rem;
-        top: -200px;
-        left: -230px;
-    }
-      
-      section {
-          background: #F1EFE9;
+        section {
+          background: #f8f7f4;
           height: 500px;
           margin-bottom: 5em;
           padding: 2em;
-          margin-top: 100px;
           display: grid;
           grid-template-areas:
               "tiger header header"
@@ -67,14 +62,18 @@ const StorePage: React.FC = () => {
           position: relative;
           z-index: 99;
       }
-      
+
+      img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          aspect-ratio: 1/1;
+      }
+
       .tiger {
-          grid-area: tiger;
-      }
-      h1 {
-          grid-area: header;
-          color: #FF6D33;
-      }
+        grid-area: tiger;
+        }
+
       .dog {
           grid-area: dog;
       }
@@ -84,18 +83,39 @@ const StorePage: React.FC = () => {
       .fish {
           grid-area: fish;
       }
+    }
       
-      img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          aspect-ratio: 1/1;
+      section {
+          background: #f8f7f4;
+          margin-bottom: 5em;
+          padding: 2em;
+          position: relative;
+          z-index: 99;
       }
+
+      h1 {
+          grid-area: header;
+          color: #FF6D33;
+      }
+
+          .tiger {
+        grid-area: tiger;
+        }
+
+      .dog {
+          grid-area: dog;
+      }
+      .content {
+          grid-area: content;
+      }
+      .fish {
+          grid-area: fish;
+      }      
       
       h1 {
           font-size: 4rem;
           text-transform: uppercase;
-          font-weight: 300;
+          font-weight: 500;
           margin: 0;
           line-height: 1em;
       }

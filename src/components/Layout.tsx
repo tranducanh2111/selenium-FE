@@ -19,7 +19,7 @@ const Layout: React.FC<{
     <>
       <div className="flex justify-start overflow-x-hidden bg-black">
         {/* Sidebar */}
-        <div className="sm:block bg-white">
+        <div className="relative sm:border-r-4 border-black">
           <SidebarModal
             isOpen={isOpen}
             openSidebar={openSidebar}
@@ -28,7 +28,7 @@ const Layout: React.FC<{
         </div>
 
         {/* Content */}
-        <div className="relative flex-1 min-h-[990px] sm:min-h-[10px] overflow-x-hidden">
+        <div className="relative flex-1 min-h-[990px] sm:min-h-screen overflow-x-hidden bg-white">
           <Profile
             isProfileOpen={isProfileOpen}
             closeProfile={closeProfile}

@@ -29,7 +29,7 @@ const SidebarModal = ({
 
       {/* Extended sidebar */}
       <div
-        className={`sm:relative fixed inset-y-0 right-0 sm:left-0 top-21 z-50 sm:z-0 bg-white mr-0 ${
+        className={`sm:sticky fixed inset-y-0 right-0 sm:left-0 top-21 z-50 sm:z-0 bg-white mr-0 ${
           isOpen ? 'w-[230px]' : 'w-[70px] invisible sm:visible duration-0'
         } duration-100`}>
         <div
@@ -93,11 +93,11 @@ const SidebarModal = ({
               </div>
             </a>
           </Link>
-          <Link href="/about" passHref legacyBehavior>
+          <Link href="/contact" passHref legacyBehavior>
             <a
               onClick={e => {
                 e.preventDefault()
-                window.location.href = '/book'
+                window.location.href = '/contact'
               }}>
               <div className="menu_bar mb-[36px]">
                 <Image
@@ -110,11 +110,11 @@ const SidebarModal = ({
               </div>
             </a>
           </Link>
-          <Link href="/contact" passHref legacyBehavior>
+          <Link href="/about" passHref legacyBehavior>
             <a
               onClick={e => {
                 e.preventDefault()
-                window.location.href = '/team'
+                window.location.href = '/about'
               }}>
               <div className="menu_bar mb-[36px]">
                 <Image
