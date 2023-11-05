@@ -44,7 +44,7 @@ const BlockSection = () => {
         line1:
           'Role: Head of Design',
         line2:
-          'IELTS 8.5 overall (Listening 8.5 Reading 9.0 Writing 7.5 Speaking 8.0) - hoàn toàn tự học',
+          "A designer&apos;s responsibility is to craft visually compelling and functional solutions that align with a brand&apos;s identity and user needs.",
         line3:
           '"Logic will get you from A to B. Imagination will take you everywhere."',
       },
