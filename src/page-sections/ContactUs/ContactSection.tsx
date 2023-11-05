@@ -37,7 +37,7 @@ const ContactSection: React.FC = () => {
                                 searchClass='phone-input-flag'  
                                 value={null}
                             />
-
+                            <Input placeHolder='Message' className='h-[150px] focus:border-[#FF6D33] hover:border-[#FF6D33] w-full rounded-md px-3 py-2 border border-light-grey placeholder:text-light-grey placeholder:text-body outline-none' />
                             {/* <Input placeHolder='Phone number' className='w-full rounded-md px-3 py-2 border border-secondary' /> */}
                             <div className='flex flex-row items-start text-body focus:border-[#FF6D33]'>
                                 <Input type='checkbox' className='outline-none w-5 h-5 mr-3' />
