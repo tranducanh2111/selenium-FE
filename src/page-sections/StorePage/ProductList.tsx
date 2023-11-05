@@ -125,10 +125,10 @@ const ProductList: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className="relative flex flex-col justify-center items-center px-[20px]">
+            <div className="relative flex flex-col justify-center items-center md:px-[20px]">
                 <div className="max-w-[1160px] flex flex-col xl:items-start items-start lg:gap-[36px] sm:gap-[38.5px] gap-[38.5px] mb-[60px]">
                     <div className="max-w-[1160px] items-center">
-                        <div className="max-w-full min-h-[303px] grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 flex justify-between gap-[53px]">
+                        <div className="max-w-full min-h-[303px] grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 flex justify-between gap-[12px] lg:gap-[24px]">
                         {filteredProducts.slice(0, visibleItems).map((item, index) => (
                             <PrimaryCard key={index} imageURL={item.image} name={item.name} descriptions={item.description} testURL="/" price={item.price} category={item.type}/>
                         ))}
