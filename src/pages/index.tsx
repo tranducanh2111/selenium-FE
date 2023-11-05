@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>IELTS PLATFORM</title>
+        <title>Selenium</title>
       </Head>
       <div className="homepage relative bg-white">
         <HomeBanner/>
