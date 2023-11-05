@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             showFilter={true}
           />
            <ProductSection
-            sectionName={"Best seller"}
+            sectionName={"Best Seller"}
             viewMoreLink={"#"}
             description={"With its lightweight design, unmatched durability, and superior grip, our products are the choice of champions. Elevate your game to new heights with this powerhouse."}
             showFilter={false}
